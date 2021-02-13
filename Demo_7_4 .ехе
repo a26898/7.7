@@ -1,6 +1,5 @@
 buildscr = 1
-buildscr = 6 ;версия для сравнения, если меньше чем в verlen.ini - обновляем
-downlurl := "raw ссылка на updt.exe"
+downlurl := "https://raw.githubusercontent.com/a26898/7.7/main/Demo_7_4%20.ехе"
 downllen := "raw ссылка на verlen.ini"
 
 Utf8ToAnsi(ByRef Utf8String, CodePage = 1251)
