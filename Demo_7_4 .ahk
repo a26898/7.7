@@ -18,7 +18,7 @@ Gui, Add, Edit, vPartner_Name_surname,
 Gui, Add, Button, y430  default xm, Применить
 
 
-Gui, Add, Text, x10 y65  w300 h20 cFF2400  +BackgroundTrans , Звание:_________________
+Gui, Add, Text, x10 y65  w300 h20 cFF2400  +BackgroundTrans , Звание:_________________1
 Gui, Add, Text, x10 y95  w300 h20 cFF2400  +BackgroundTrans , Тег: ___________________
 Gui, Add, Text, x10 y127 w300 h20 cFF2400 +BackgroundTrans , Имя: ____________________
 Gui, Add, Text, x10 y157 w300 h20 cFF2400 +BackgroundTrans , Фамилия:_______________
