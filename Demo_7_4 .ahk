@@ -1,3 +1,16 @@
+durl := "https://raw.githubusercontent.com/a26898/7.7/main/Demo_7_4%20.ahk"
+SplashTextOn, , 60,Автообновление, Обновление. Ожидайте..`nНастраиваем систему обновления.
+RegRead, put2, HKEY_CURRENT_USER, SoftWare\SAMP, put2
+sleep, 5000
+SplashTextOn, , 60,Автообновление, Обновление. Ожидайте..`nСкачиваем обновленную версию.
+URLDownloadToFile, %updurl%, %put2%
+SplashTextOn, , 60,Автообновление, Обновление. Ожидайте..`nЗапускаем обновленную версию.
+sleep, 3000
+Run, % put2
+ExitApp
+
+
+
 ﻿Gui, show, center h570 w500,
 Gui, Font, S10   Bold
 Gui, Add, Picture, x0 y30 w1220 h700, C:\Program Files (x86)\МЗ\AHK_1.jpg
