@@ -3,6 +3,11 @@
 UrlDownloadToFile, https://github.com/a26898/7.7/raw/main/Chasy_male.txt, %ProgramFiles%\KPRP\Halyards\Chasy_male.txt
 }
 
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Prishel_vyzov.mp3
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/15.mp3?raw=true, %ProgramFiles%\KPRP\Halyards\Prishel_vyzov.mp3
+}
+
 IfnotExist, %ProgramFiles%\KPRP\Halyards\Chasy_feminine.txt
 {
 UrlDownloadToFile, https://github.com/a26898/7.7/raw/main/Chasy_feminine.txt, %ProgramFiles%\KPRP\Halyards\Chasy_feminine.txt
@@ -186,11 +191,6 @@ UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/restart.png?raw=true,
 IfnotExist, %ProgramFiles%\KPRP\Halyards\GuiClose_2
 {
 UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Diskord.png?raw=true, %ProgramFiles%\KPRP\Halyards\GuiClose_2
-}
-
-IfnotExist, %ProgramFiles%\KPRP\Halyards\Conference.bat
-{
-UrlDownloadToFile, https://github.com/a26898/7.7/raw/main/Conference.bat?raw=true, %ProgramFiles%\KPRP\Halyards\Conference.bat
 }
 
 IfnotExist, %ProgramFiles%\KPRP\Halyards\muzyka_2_1_1.mp3
