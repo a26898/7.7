@@ -5,9 +5,9 @@ UrlDownloadToFile, https://github.com/a26898/7.7/raw/main/Chasy_male.txt, %Progr
 
 UrlDownloadToFile, https://github.com/a26898/7.7/raw/main/lectures.bat, %ProgramFiles%\KPRP\Halyards\lectures.bat
 
-IfnotExist, %ProgramFiles%\KPRP\Halyards\Prishel_vyzov.mp3
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Prishel_vyzov_1.mp3
 {
-UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/15.mp3?raw=true, %ProgramFiles%\KPRP\Halyards\Prishel_vyzov.mp3
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Prishel_vyzov_1.mp3?raw=true, %ProgramFiles%\KPRP\Halyards\Prishel_vyzov_1.mp3
 }
 
 IfnotExist, %ProgramFiles%\KPRP\Halyards\Chasy_feminine.txt
