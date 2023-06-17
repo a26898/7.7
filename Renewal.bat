@@ -224,9 +224,9 @@ IfnotExist, %ProgramFiles%\KPRP\Halyards\Ok_1
 UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Ok_64.png?raw=true, %ProgramFiles%\KPRP\Halyards\Ok_1
 }
 
-IfnotExist, %ProgramFiles%\KPRP\Halyards\MZ_layout_changes_4
+IfnotExist, %ProgramFiles%\KPRP\Halyards\MZ_layout_changes_5
 {
-UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Raskladka_MZ.png?raw=true, %ProgramFiles%\KPRP\Halyards\MZ_layout_changes_4
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Raskladka_MZ.png?raw=true, %ProgramFiles%\KPRP\Halyards\MZ_layout_changes_5
 }
 
 IfnotExist, %ProgramFiles%\KPRP\Halyards\muzyka_2_1.mp3
