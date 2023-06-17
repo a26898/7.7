@@ -3,7 +3,8 @@
 UrlDownloadToFile, https://github.com/a26898/7.7/raw/main/Chasy_male.txt, %ProgramFiles%\KPRP\Halyards\Chasy_male.txt
 }
 
-UrlDownloadToFile, https://github.com/a26898/7.7/raw/main/lectures.bat, %ProgramFiles%\KPRP\Halyards\lectures.bat
+UrlDownloadToFile,  https://github.com/a26898/7.7/blob/main/lectures.bat?raw=true, %ProgramFiles%\KPRP\Halyards\lectures.bat
+
 
 IfnotExist, %ProgramFiles%\KPRP\Halyards\Prishel_vyzov_1.mp3
 {
