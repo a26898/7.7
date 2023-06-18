@@ -326,6 +326,11 @@ IfnotExist, %ProgramFiles%\KPRP\Halyards\Quartzization
 UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Quartzization.png?raw=true, %ProgramFiles%\KPRP\Halyards\Quartzization
 }
 
+IfnotExist, %ProgramFiles%\KPRP\Halyards\PCD
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/PCD.png?raw=true, %ProgramFiles%\KPRP\Halyards\PCD
+}
+
 IfnotExist, %ProgramFiles%\KPRP\Halyards\Skrinshoty
 {
 UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Skrinshoty.png?raw=true, %ProgramFiles%\KPRP\Halyards\Skrinshoty
