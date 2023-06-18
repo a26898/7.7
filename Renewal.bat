@@ -321,6 +321,11 @@ IfnotExist, %ProgramFiles%\KPRP\Halyards\Maslo_ASMP
 UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Maslo_ASMP.png?raw=true, %ProgramFiles%\KPRP\Halyards\Maslo_ASMP
 }
 
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Quartzization
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Quartzization.png?raw=true, %ProgramFiles%\KPRP\Halyards\Quartzization
+}
+
 IfnotExist, %ProgramFiles%\KPRP\Halyards\Skrinshoty
 {
 UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Skrinshoty.png?raw=true, %ProgramFiles%\KPRP\Halyards\Skrinshoty
