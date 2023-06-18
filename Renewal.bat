@@ -323,7 +323,7 @@ UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Maslo_ASMP.png?raw=tr
 
 IfnotExist, %ProgramFiles%\KPRP\Halyards\Moyka_Paz
 {
-UrlDownloadToFile,https://github.com/a26898/7.7/blob/main/Moyka_Paz.png?raw=true, %ProgramFiles%\KPRP\Halyards\Moyka_Paz
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Moyka_Paz.png?raw=true, %ProgramFiles%\KPRP\Halyards\Moyka_Paz
 }
 
 IfnotExist, %ProgramFiles%\KPRP\Halyards\Quartzization
