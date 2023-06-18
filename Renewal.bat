@@ -316,12 +316,10 @@ IfnotExist, %ProgramFiles%\KPRP\Halyards\MO_layout_changes_1
 UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Raskladka_MOMO.png?raw=true, %ProgramFiles%\KPRP\Halyards\MO_layout_changes_1
 }
 
-
-
-
-
-
-
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Maslo_ASMP
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Maslo_ASMP.png?raw=true, %ProgramFiles%\KPRP\Halyards\Maslo_ASMP
+}
 
 IfnotExist, %ProgramFiles%\KPRP\Halyards\Skrinshoty
 {
