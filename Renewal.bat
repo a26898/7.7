@@ -318,9 +318,9 @@ UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Raskladka_MOMO.png?ra
 
 
 
-IfnotExist, %ProgramFiles%\KPRP\Halyards\Rabies
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Beshenstvo
 {
-UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Rabies.png?raw=true, %ProgramFiles%\KPRP\Halyards\Rabies
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Beshenstvo.png?raw=true, %ProgramFiles%\KPRP\Halyards\Beshenstvo
 }
 
 IfnotExist, %ProgramFiles%\KPRP\Halyards\Diphtheria
