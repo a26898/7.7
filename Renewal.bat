@@ -318,6 +318,21 @@ UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Raskladka_MOMO.png?ra
 
 
 
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Rabies
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Rabies.png?raw=true, %ProgramFiles%\KPRP\Halyards\Rabies
+}
+
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Diphtheria
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Diphtheria.png?raw=true, %ProgramFiles%\KPRP\Halyards\Diphtheria
+}
+
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Tuberculosis
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Tuberculosis.png?raw=true, %ProgramFiles%\KPRP\Halyards\Tuberculosis
+}
+
 IfnotExist, %ProgramFiles%\KPRP\Halyards\Vich
 {
 UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Vich.png?raw=true, %ProgramFiles%\KPRP\Halyards\Vich
