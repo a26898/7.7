@@ -318,6 +318,12 @@ UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Raskladka_MOMO.png?ra
 
 
 
+
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Gem
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Gem.png?raw=true, %ProgramFiles%\KPRP\Halyards\Gem
+}
+
 IfnotExist, %ProgramFiles%\KPRP\Halyards\Beshenstvo
 {
 UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Beshenstvo.png?raw=true, %ProgramFiles%\KPRP\Halyards\Beshenstvo
