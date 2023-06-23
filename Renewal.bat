@@ -319,6 +319,13 @@ UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Raskladka_MOMO.png?ra
 
 
 
+
+
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Zmeya_1
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Zmeya_1.png?raw=true, %ProgramFiles%\KPRP\Halyards\Zmeya_1
+}
+
 IfnotExist, %ProgramFiles%\KPRP\Halyards\Gem
 {
 UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Gem.png?raw=true, %ProgramFiles%\KPRP\Halyards\Gem
