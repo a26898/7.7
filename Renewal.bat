@@ -240,9 +240,9 @@ IfnotExist, %ProgramFiles%\KPRP\Halyards\muzyka_2_1.mp3
 UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/15.mp3?raw=true, %ProgramFiles%\KPRP\Halyards\muzyka_2_1.mp3
 }
 
-IfnotExist, %ProgramFiles%\KPRP\Halyards\Vybor_8
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Vybor_9
 {
-UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Vod_Skrin.png?raw=true, %ProgramFiles%\KPRP\Halyards\Vybor_8
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Vod_Skrin.png?raw=true, %ProgramFiles%\KPRP\Halyards\Vybor_9
 }
 
 IfnotExist,  %ProgramFiles%\KPRP\Halyards\Ok_1
