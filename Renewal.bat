@@ -126,6 +126,17 @@ IfnotExist, %ProgramFiles%\KPRP\Halyards\OCHS_1
 UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Map.png?raw=true, %ProgramFiles%\KPRP\Halyards\OCHS_1
 }
 
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Otygrovki_1
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Otygrovki_1.png?raw=true, %ProgramFiles%\KPRP\Halyards\Otygrovki_1
+}
+
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Otygrovki_2
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Otygrovki_2.png?raw=true, %ProgramFiles%\KPRP\Halyards\Otygrovki_2
+}
+
+
 IfnotExist, %ProgramFiles%\KPRP\Halyards\Info_RZHD
 {
 UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Info_RZHD.png?raw=true, %ProgramFiles%\KPRP\Halyards\Info_RZHD
