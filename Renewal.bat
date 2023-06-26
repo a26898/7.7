@@ -330,6 +330,24 @@ UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Raskladka_MOMO.png?ra
 
 
 
+
+
+
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Gynecologically
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Gynecologically.png?raw=true, %ProgramFiles%\KPRP\Halyards\Gynecologically
+}
+
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Glucometer
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Glucometer.png?raw=true, %ProgramFiles%\KPRP\Halyards\Glucometer
+}
+
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Colposcopy
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Colposcopy.png?raw=true, %ProgramFiles%\KPRP\Halyards\Colposcopy
+}
+
 IfnotExist, %ProgramFiles%\KPRP\Halyards\CT
 {
 UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/CT.png?raw=true, %ProgramFiles%\KPRP\Halyards\CT
