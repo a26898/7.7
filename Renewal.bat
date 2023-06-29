@@ -333,6 +333,24 @@ UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Raskladka_MOMO.png?ra
 
 
 
+
+
+
+IfnotExist, %ProgramFiles%\KPRP\Halyards\KTG
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/KTG.png?raw=true, %ProgramFiles%\KPRP\Halyards\KTG
+}
+
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Test_beremennos
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Test_beremennos.png?raw=true, %ProgramFiles%\KPRP\Halyards\Test_beremennos
+}
+
+IfnotExist, %ProgramFiles%\KPRP\Halyards\МРA
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/МРA.png?raw=true, %ProgramFiles%\KPRP\Halyards\МРA
+}
+
 IfnotExist, %ProgramFiles%\KPRP\Halyards\Gynecologically
 {
 UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Gynecologically.png?raw=true, %ProgramFiles%\KPRP\Halyards\Gynecologically
