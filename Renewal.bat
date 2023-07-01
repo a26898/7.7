@@ -336,6 +336,21 @@ UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Raskladka_MOMO.png?ra
 
 
 
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Hysterectomy
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Hysterectomy.png?raw=true, %ProgramFiles%\KPRP\Halyards\Hysterectomy
+}
+
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Liposuction
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Liposuction.png?raw=true, %ProgramFiles%\KPRP\Halyards\Liposuction
+}
+
+IfnotExist, %ProgramFiles%\KPRP\Halyards\UHT_stone
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/UHT_stone.png?raw=true, %ProgramFiles%\KPRP\Halyards\UHT_stone
+}
+
 IfnotExist, %ProgramFiles%\KPRP\Halyards\KTG
 {
 UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/KTG.png?raw=true, %ProgramFiles%\KPRP\Halyards\KTG
