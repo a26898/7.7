@@ -334,7 +334,10 @@ UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Raskladka_MOMO.png?ra
 
 
 
-
+IfnotExist, %ProgramFiles%\KPRP\Halyards\5_minut.mp3
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/5_minut.mp3?raw=true, %ProgramFiles%\KPRP\Halyards\5_minut.mp3
+}
 
 IfnotExist, %ProgramFiles%\KPRP\Halyards\Hysterectomy
 {
