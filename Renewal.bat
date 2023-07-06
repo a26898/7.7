@@ -330,9 +330,25 @@ UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Raskladka_MOMO.png?ra
 
 
 
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Ploskostopiya
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Ploskostopiya.png?raw=true, %ProgramFiles%\KPRP\Halyards\Ploskostopiya
+}
 
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Legkiye
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Legkiye.png?raw=true, %ProgramFiles%\KPRP\Halyards\Legkiye
+}
 
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Hrudy
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Hrudy.png?raw=true, %ProgramFiles%\KPRP\Halyards\Hrudy
+}
 
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Grud
+{
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Grud.png?raw=true, %ProgramFiles%\KPRP\Halyards\Grud
+}
 
 IfnotExist, %ProgramFiles%\KPRP\Halyards\5_minut.mp3
 {
