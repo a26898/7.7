@@ -281,9 +281,9 @@ IfnotExist, %ProgramFiles%\KPRP\Halyards\Vybor_3
 UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Vod__GUVD.png?raw=true, %ProgramFiles%\KPRP\Halyards\Vybor_3
 }
 
-IfnotExist, %ProgramFiles%\KPRP\Halyards\Vybor_5
+IfnotExist, %ProgramFiles%\KPRP\Halyards\Vybor_5_1
 {
-UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Vod__MO.png?raw=true,  %ProgramFiles%\KPRP\Halyards\Vybor_5
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Vod__MO.png?raw=true,  %ProgramFiles%\KPRP\Halyards\Vybor_5_1
 }
 
 IfnotExist, %ProgramFiles%\KPRP\Halyards\karta_1
