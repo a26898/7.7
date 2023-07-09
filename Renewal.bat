@@ -322,9 +322,9 @@ IfnotExist, %ProgramFiles%\KPRP\Halyards\GUVD_layout_changes_1
 UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Raskladka_GUVD.png?raw=true, %ProgramFiles%\KPRP\Halyards\GUVD_layout_changes_1
 }
 
-IfnotExist, %ProgramFiles%\KPRP\Halyards\MO_layout_changes_1
+IfnotExist, %ProgramFiles%\KPRP\Halyards\MO_layout_changes_2
 {
-UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Raskladka_MOMO.png?raw=true, %ProgramFiles%\KPRP\Halyards\MO_layout_changes_1
+UrlDownloadToFile, https://github.com/a26898/7.7/blob/main/Raskladka_MOMO.png?raw=true, %ProgramFiles%\KPRP\Halyards\MO_layout_changes_2
 }
 
 
